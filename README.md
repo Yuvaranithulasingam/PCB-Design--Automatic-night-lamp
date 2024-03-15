@@ -46,9 +46,3 @@ During the daytime when there is a light, the LDR has very low resistance and al
 # RESULT
 Thus, the PCB circuit for automatic night lamp using eagle sofware is designed successfully.
 
-
-
-
-# Result
-Thus the automatic night lamp circuit was designed using proteus software.
-
