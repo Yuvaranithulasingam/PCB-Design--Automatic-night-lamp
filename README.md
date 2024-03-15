@@ -29,23 +29,22 @@ Save the generated manufacturing files</br>
 
 Here is a simple dark sensor circuit that is useful to switch ON and OFF any appliances automatically depending on the Light. As an output device, we’ll utilise an LED in this example. To detect the light, we will use an LDR (Light-dependent Resistor). As the name says, when the light intensity on LDR is high, the resistance through it decreases; when the light intensity on LDR is low, the resistance through it increases and becomes extremely high. It’s a kind of variable resistor, but the resistance varies based on the light.
 
-### Working 
+## Working 
 During the daytime when there is a light, the LDR has very low resistance and all voltage coming through R1 dropped with the ground. This makes the voltage at the base of the transistor very low and it will not switch ON the transistor. Because the transistor is OFF, the current will not flow through the transistor. As a result, LED will not turn ON.At night when there is no light, the LDR has high resistance and very less power dropped with the ground. This makes the voltage at the base of the transistor high to turn the transistor ON. Because the transistor is turned ON, current flows through the transistor. It flows from the positive battery terminal, through R2, the LED, and the transistor down to the negative battery terminal. As a result, the LED turns ON.The same circuit can be used for a variety of purposes. Check out the Automatic Street Light Control System using LDR application. Instead of LED, bulbs are used using a relay.
-
-
 
 # Circuit Diagram
 
 ![2asc](https://github.com/anishkumar-Embedded/PCB-Design--Automatic-night-lamp/assets/71547910/58ddd20b-a881-4f29-86ef-70697d50eb02)
 
 # Output
-
 ### Schematic diagram
-
-
+![image](https://github.com/Yuvaranithulasingam/PCB-Design--Automatic-night-lamp/assets/121418522/aa2c1734-17af-4965-822d-b4e855eded4f)
 
 ### Layout diagram
+![image](https://github.com/Yuvaranithulasingam/PCB-Design--Automatic-night-lamp/assets/121418522/893cd432-3327-4d0a-af84-aa231c0e352d)
 
+# RESULT
+Thus, the PCB circuit for automatic night lamp using eagle sofware is designed successfully.
 
 
 
